@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;  
+}
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.tumba{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+}
+.grave{
+    margin: 0 auto;
+    width: 250px;
+    height: 350px;
+    background-color: gray;
+    border-radius: 250px  250px 0 0;
+    padding: .1px;
+}
+.shrub--1{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    border-radius: 1000px 1000px 0 0;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+.shrub--2{
+    width: 100px;
+    height: 70px;
+    background-color: green;
+    border-radius: 1000px 1000px 0 0;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+.shrub--3{
+    width: 150px;
+    height: 120px;
+    background-color: green;
+    border-radius: 1000px 1000px 0 0;
+    margin-top: -120px;
+    margin-left: 175px;
+}
+.shrub--4{
+    width: 70px;
+    height: 50px;
+    background-color: green;
+    border-radius: 1000px 1000px 0 0;
+    margin-top: -50px;
+    margin-left: 290px;
+}
+.photo{
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90px;
+    height: 90px;
+    border-radius:50% ;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-bottom: -10px;
+}
+.rip{
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.name, .age{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: -15px;
+}
+.name{
+    font-size: 25px;
+}
